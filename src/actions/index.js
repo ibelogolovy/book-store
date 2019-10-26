@@ -76,7 +76,6 @@ const modalDialogClosed = (params) => {
   };
 };
 
-
 const fetchBooks = (bookstoreService) => () => (dispatch) => {
   dispatch(booksRequested());
   bookstoreService.getBooks()
