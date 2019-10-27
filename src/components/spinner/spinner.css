@@ -18,11 +18,12 @@
     transform: rotate(360deg);
   }
 }
-.lds-css {
+/* .lds-css {
   margin: 0 auto;
-}
+} */
 .lds-dual-ring {
   position: relative;
+  margin: auto;
 }
 .lds-dual-ring div {
   position: absolute;
